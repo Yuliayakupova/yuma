@@ -6,6 +6,7 @@ public class Cesis implements City {
     public String visit() throws IOException {
 
         while (true) {
+            int a = 0;
             System.out.println("What would you like to do today in city?");
             System.out.println("1.Museums");
             System.out.println("2.Shopping");
